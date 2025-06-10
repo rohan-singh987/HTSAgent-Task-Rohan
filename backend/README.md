@@ -230,23 +230,3 @@ The application uses structured logging. Check logs for:
 1. **Trade Agreements**: "What is the United States-Israel Free Trade Agreement?"
 2. **GSP Questions**: "Can a product that exceeds its tariff-rate quota still qualify for duty-free entry under GSP?"
 3. **Classification**: "How is classification determined for imported manufacturing parts?"
-
-## Architecture Decisions
-
-- **Async/Await**: All I/O operations are non-blocking
-- **Service Pattern**: Modular design for easy testing and maintenance
-- **Thread Pools**: CPU-intensive tasks run in separate threads
-- **Error Handling**: Comprehensive exception handling with logging
-- **Type Safety**: Full Pydantic validation for all data models
-
-## Contributing
-
-1. Follow the existing service pattern
-2. Add comprehensive error handling
-3. Include health check methods
-4. Update documentation
-5. Add type hints and docstrings
-
-## License
-
-This project is part of the HTS AI Agent system developed for trade documentation assistance. 

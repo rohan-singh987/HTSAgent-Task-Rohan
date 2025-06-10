@@ -104,7 +104,3 @@ frontend/
 - Validate HTS number format (8-10 digits)
 - Check country code (2-3 letters)
 - Ensure positive values for costs and quantities
-
----
-
-**Built with Streamlit • Powered by FastAPI backend** 
